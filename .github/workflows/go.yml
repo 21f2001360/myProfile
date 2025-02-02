@@ -10,7 +10,10 @@ on:
     branches: [ "main" ]
 
 jobs:
-
+  test:
+    steps:
+      - name: 21f2001360@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
   build:
     runs-on: ubuntu-latest
     steps:
