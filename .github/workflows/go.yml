@@ -29,3 +29,6 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+    
+    - name: 21f2001360@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
